@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+	
+	<PreferenceCategory
+		android:title="Server">
+			
+		<EditTextPreference
+			android:key="preference_server_hostname"
+			android:defaultValue="0.0.0.0"
+			android:title="Server Address"
+			android:summary="The server hostname or ip address"
+			android:inputType="textUri" />
+		
+		<EditTextPreference
+			android:key="preference_server_port"
+			android:defaultValue="80"
+			android:title="Port"
+			android:summary="The server port to use"
+			android:inputType="number" />
+
+	</PreferenceCategory>
+</PreferenceScreen> 

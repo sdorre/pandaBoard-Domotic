@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">PandaBoardDomotic</string>
+    <string name="settings">Settings</string>
+	<string name="update">Update</string>
+	
+    <string name="temp">Temperature</string>
+    <string name="pressure">Pressure</string>
+    
+    <string name="min">Minimum : </string>
+    <string name="max">Maximum : </string>
+    <string name="current">Current : </string>
+    <string name="average">Average : </string>
+    
+</resources>
